@@ -14,6 +14,12 @@
     </main>
 	<script>
     alert(window.myData); // alerts "dataToFrame"
+	window.addEventListener("message", receiveDataFromWeb);
+
+	const receiveDataFromWeb=  (data)=> {
+	    console.log(data);
+	    //this should print Hello data from Homepage
+	}
   </script>
   </body>
 </html>
