@@ -13,11 +13,10 @@
         <h1>Welcome to My Website</h1>  
     </main>
 	<script>
-    alert(window.name); // alerts "dataToFrame"
 	window.addEventListener("message", receiveDataFromWeb);
 
 	const receiveDataFromWeb=  (data)=> {
-	    console.log(data);
+	    alert(data);
 	    //this should print Hello data from Homepage
 	}
   </script>
