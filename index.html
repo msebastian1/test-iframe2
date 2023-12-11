@@ -13,12 +13,13 @@
         <h1>Welcome to My Website</h1>  
     </main>
 	<script>
-	window.addEventListener("message", receiveDataFromWeb);
 
 	const receiveDataFromWeb=  (data)=> {
 	    alert(data);
 	    //this should print Hello data from Homepage
 	}
+	window.addEventListener("message", receiveDataFromWeb);
+
   </script>
   </body>
 </html>
